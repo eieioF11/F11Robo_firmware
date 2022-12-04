@@ -51,5 +51,35 @@
         "utility": "cpp",
         "typeinfo": "cpp",
         "vector": "cpp"
-    }
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/f11/install/micro_ros_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/speech_recognition_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/posedetection_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/build/pid_pathfollower",
+        "/home/f11/ros2_ws/install/pid_pathfollower/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/openni2_camera_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/build/mpc_pathfollower",
+        "/home/f11/ros2_ws/install/mpc_pathfollower/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/jsk_topic_tools/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/jsk_rviz_plugins/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/jsk_recognition_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/jsk_hark_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/jsk_gui_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/jsk_footstep_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages",
+        "/home/f11/ros2_ws/build/ABU2023_steer_sim",
+        "/home/f11/ros2_ws/install/ABU2023_steer_sim/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/speech_recognition_msgs/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/posedetection_msgs/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/jsk_topic_tools/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/jsk_rviz_plugins/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/jsk_recognition_msgs/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/jsk_hark_msgs/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/jsk_gui_msgs/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/jsk_footstep_msgs/lib/python3.8/site-packages",
+        "/home/f11/ABU2023_ER_ros2_ws_v2/install/android_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
 }

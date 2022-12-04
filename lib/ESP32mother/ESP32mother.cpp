@@ -12,7 +12,6 @@ float Angular=0.0f;
 
 int mode,mdc=0;
 int sel=0,melodysel=0;
-i2c_err_t I2C_Error;
 uint16_t stledinterval=500;
 
 String sdprint="/";
@@ -148,8 +147,6 @@ ESP32Mather::ESP32Mather()
 }
 int ESP32Mather::setup()
 {
-    /*UART setup*/
-    Serial.begin(115200);
     /*Digitalpin setup*/
     pinMode(STBY, OUTPUT);
     pinMode(SD_CHECK, INPUT);
@@ -166,8 +163,6 @@ int ESP32Mather::setup()
     #if (ESP_OTAE == 1)
     OTAsetup();
     otastatus=" ";
-    #else
-    otastatus="OTA off";
     #endif
     /*Encoder Initialize*/
     #if (MOTORMODE ==PID_M)
@@ -185,7 +180,6 @@ int ESP32Mather::setup()
     #endif
     /*melody*/
     xTaskCreatePinnedToCore(melodytask,"Melody task",1024,NULL,0,NULL,1);
-    tasksel=STARTTASK;
 
     tone(beep,246);
     delay(100);

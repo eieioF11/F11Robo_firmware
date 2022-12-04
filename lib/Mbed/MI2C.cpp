@@ -1,5 +1,5 @@
 #include "MI2C.h"
-
+/*
 const char* i2cerror(i2c_err_t err)
 {
     switch(err)
@@ -15,7 +15,7 @@ const char* i2cerror(i2c_err_t err)
         case I2C_ERROR_NO_BEGIN:return"I2C_ERROR_NO_BEGIN";
     }
     return "I2COK";
-}
+}*/
 
 MI2C::MI2C(TwoWire *i2c_)
 {

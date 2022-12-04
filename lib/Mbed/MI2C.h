@@ -7,7 +7,6 @@
 extern "C" {
 #endif
 
-const char* i2cerror(i2c_err_t err);
 
 class MI2C{
     public:

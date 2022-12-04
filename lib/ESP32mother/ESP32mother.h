@@ -7,7 +7,7 @@
 #include "math.h"
 #include <FS.h>
 #include <SPIFFS.h>
-#include <FreeRTOS.h>
+#include "freertos/FreeRTOS.h"
 #include "Timer.h"
 #include "stprint.h"
 
@@ -22,7 +22,6 @@
 #if defined __cplusplus
 extern "C" {
 #endif
-extern i2c_err_t I2C_Error;
 
 extern float Vx;
 extern float Vy;
